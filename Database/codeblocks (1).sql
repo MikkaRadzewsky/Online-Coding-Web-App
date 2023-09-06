@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 06, 2023 at 04:25 PM
+-- Generation Time: Sep 06, 2023 at 05:37 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.1.6
 
@@ -40,9 +40,9 @@ CREATE TABLE `codeblocks` (
 
 INSERT INTO `codeblocks` (`codeblockId`, `name`, `language`, `code`) VALUES
 (1, 'Async Case', 'JavaScript', 'async function myFunction() {\r\n  return \"Hello\";\r\n}'),
-(2, 'Error Handling', 'JavaScript', ''),
-(3, 'Data Fetching', 'JavaScript', ''),
-(4, 'Form Validation', 'JavaScript', '');
+(2, 'Error Handling', 'JavaScript', 'try {\r\n  //Block of code to try\r\n}\r\ncatch(err) {\r\n  //Block of code to handle errors\r\n}'),
+(3, 'Data Fetching', 'JavaScript', 'async function getText(file) {\r\n  let myObject = await fetch(file);\r\n  let myText = await myObject.text();\r\n  myDisplay(myText);\r\n}'),
+(4, 'Form Validation', 'JavaScript', 'function validateForm() {\r\n  let x = document.forms[\"myForm\"][\"fname\"].value;\r\n  if (x == \"\") {\r\n    alert(\"Name must be filled out\");\r\n    return false;\r\n  }\r\n}');
 
 --
 -- Indexes for dumped tables

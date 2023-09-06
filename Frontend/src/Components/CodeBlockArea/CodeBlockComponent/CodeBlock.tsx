@@ -87,6 +87,7 @@ function CodeBlock(Prop: CodeBlockProps): JSX.Element {
             style={{
               fontFamily: '"Fira code", "Fira Mono", monospace',
               fontSize: 12,
+              color: "white",
             }}
             readOnly={userRole === RoleModel.Mentor ? true : false}
           />
