@@ -1,14 +1,16 @@
 import "./CodeBlock.css";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { prism } from "react-syntax-highlighter/dist/esm/styles/prism";
+import Editor from "react-simple-code-editor";
+// @ts-ignore
+import { highlight, languages } from "prismjs/components/prism-core";
+import "prismjs/components/prism-clike";
+import "prismjs/components/prism-javascript";
+import "prismjs/themes/prism.css";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import dataService from "../../../Services/DataService";
 import CodeBlockModel from "../../../Models/CodeBlockModel";
 import notifyService from "../../../Services/NotifyService";
 import e from "cors";
-import Prism from "prismjs";
-import { codeblocksStore } from "../../../Redux/CodeblocksState";
 import RoleModel from "../../../Models/RoleModel";
 import Spinner from "../../SharedArea/Spinner/Spinner";
 
@@ -25,6 +27,8 @@ function CodeBlock(Prop: CodeBlockProps): JSX.Element {
   const [userCount, setUserCount] = useState(0);
   const [userRole, setUserRole] = useState<RoleModel>();
   const params = useParams();
+
+  //add roles to server side...
 
   useEffect(() => {
     const id = +params.codeblockId;
@@ -57,8 +61,8 @@ function CodeBlock(Prop: CodeBlockProps): JSX.Element {
   //     Prism.highlightAll();
   //   }, [codeText]);
 
-  const handleCodeChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    let newCode = e.target.textContent;
+  const handleCodeChange = (code: string) => {
+    let newCode = code;
     updateCode(newCode);
   };
 
@@ -78,20 +82,20 @@ function CodeBlock(Prop: CodeBlockProps): JSX.Element {
 
       {userRole && (
         <>
-          <SyntaxHighlighter
-            language="javascript" // to enable only js
-            style={prism}
-            className="CodeBlock"
-            contentEditable={userRole === RoleModel.Mentor ? false : true}
-            //flip this for testing...
-            onInput={(e: React.ChangeEvent<HTMLTextAreaElement>) => {
-              handleCodeChange(e);
-              //   Prism.highlightAll();
+          <Editor
+            value={codeText}
+            onValueChange={(code) => {
+              setCodeText(code);
+              handleCodeChange(code);
             }}
-            // make the editable content error go away...
-          >
-            {codeText}
-          </SyntaxHighlighter>
+            highlight={(code) => highlight(code, languages.js)}
+            padding={10}
+            style={{
+              fontFamily: '"Fira code", "Fira Mono", monospace',
+              fontSize: 12,
+            }}
+            readOnly={userRole === RoleModel.Mentor ? true : false}
+          />
         </>
       )}
     </div>
