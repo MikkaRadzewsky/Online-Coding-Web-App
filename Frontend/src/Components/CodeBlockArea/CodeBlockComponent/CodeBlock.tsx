@@ -90,6 +90,7 @@ function CodeBlock(Prop: CodeBlockProps): JSX.Element {
               color: "white",
             }}
             readOnly={userRole === RoleModel.Mentor ? true : false}
+            //to test- switch boolean values
           />
         </>
       )}

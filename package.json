@@ -1,0 +1,20 @@
+{
+  "name": "online-coding-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd Frontend && npm run build",
+    "start": "cd Backend && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikkaRadzewsky/Online-Coding-Web-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikkaRadzewsky/Online-Coding-Web-App/issues"
+  },
+  "homepage": "https://github.com/MikkaRadzewsky/Online-Coding-Web-App#readme"
+}
