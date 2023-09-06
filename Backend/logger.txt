@@ -1,0 +1,300 @@
+9/5/2023, 2:17:39 PM 	 ER_NO_SUCH_TABLE: Table 'codeblocksproject.vacations' doesn't exist
+----------------------------
+9/5/2023, 2:18:37 PM 	 id undefined not exist
+----------------------------
+9/5/2023, 6:58:09 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE codeblockId = 1' at line 3
+----------------------------
+9/5/2023, 6:58:10 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE codeblockId = 1' at line 3
+----------------------------
+9/5/2023, 6:58:10 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE codeblockId = 1' at line 3
+----------------------------
+9/5/2023, 6:59:16 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE codeblockId = 1' at line 3
+----------------------------
+9/5/2023, 7:01:55 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE codeblockId = 3' at line 3
+----------------------------
+9/5/2023, 7:04:17 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE codeblockId = 3' at line 3
+----------------------------
+9/5/2023, 7:04:20 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE codeblockId = 3' at line 3
+----------------------------
+9/5/2023, 7:07:16 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? ,
+        WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:07:54 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:07:55 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:07:55 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:07:56 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:07:56 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:08:40 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:10:06 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:13:10 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+    WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:13:11 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+    WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:13:11 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+    WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:13:12 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+    WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:13:50 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+    WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:13:51 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+    WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:14:16 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+    WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:14:22 PM 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+    WHERE codeblockId = ?' at line 4
+----------------------------
+9/5/2023, 7:17:26 PM 	 ER_BAD_NULL_ERROR: Column 'name' cannot be null
+----------------------------
+9/5/2023, 7:19:24 PM 	 ER_BAD_NULL_ERROR: Column 'name' cannot be null
+----------------------------
+9/5/2023, 7:19:25 PM 	 ER_BAD_NULL_ERROR: Column 'name' cannot be null
+----------------------------
+9/5/2023, 7:19:38 PM 	 ER_BAD_NULL_ERROR: Column 'name' cannot be null
+----------------------------
+9/5/2023, 7:20:04 PM 	 ER_BAD_NULL_ERROR: Column 'name' cannot be null
+----------------------------
+9/5/2023, 7:20:05 PM 	 ER_BAD_NULL_ERROR: Column 'name' cannot be null
+----------------------------
+9/5/2023, 7:23:45 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:23:46 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:23:46 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:23:47 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:23:47 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:23:48 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:23:49 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:23:49 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:23:49 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:23:50 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:24:32 PM 	 id 3 not exist
+----------------------------
+9/5/2023, 7:24:33 PM 	 id 3 not exist
+----------------------------
+9/5/2023, 7:24:34 PM 	 id 3 not exist
+----------------------------
+9/5/2023, 7:24:35 PM 	 id 3 not exist
+----------------------------
+9/5/2023, 7:24:43 PM 	 id 2 not exist
+----------------------------
+9/5/2023, 7:25:14 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:25:16 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:25:16 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:25:17 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:25:17 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:25:18 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:25:18 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:28:39 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:28:40 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:30:04 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:30:52 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:30:53 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:32:25 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:38:18 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:38:19 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:38:19 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:38:19 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:38:20 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:38:20 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:38:21 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:39:05 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:39:05 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:39:06 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:39:38 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:39:39 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:39:44 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:40:11 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:40:15 PM 	 id 0 not exist
+----------------------------
+9/5/2023, 7:40:18 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:42:09 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:42:10 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:42:11 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:42:49 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:42:50 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:42:50 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:42:51 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:42:51 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:42:52 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:49:08 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:51:51 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:51:52 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:51:52 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:51:53 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:52:18 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:53:12 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:54:09 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:54:10 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:57:44 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 7:58:49 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:05:44 PM 	 Unexpected token ; in JSON at position 21
+----------------------------
+9/5/2023, 8:07:16 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:08:23 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:08 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:15 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:15 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:16 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:16 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:20 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:21 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:21 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:21 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:22 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:22 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:22 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:11:22 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:13:55 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:23:34 PM 	 Route /api/codeblocks/[object%20Object] not exist
+----------------------------
+9/5/2023, 8:25:52 PM 	 Route /api/codeblocks/[object%20Object] not exist
+----------------------------
+9/5/2023, 8:27:28 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:29:31 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:30:29 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:30:46 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:15 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:33 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:37 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:38 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:39 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:39 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:40 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:40 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:40 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:40 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:41 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:44 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:31:49 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:33:51 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:33:54 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:33:56 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:33:56 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:33:56 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:33:56 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:33:57 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/5/2023, 8:33:57 PM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/6/2023, 9:45:39 AM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/6/2023, 9:45:42 AM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
+9/6/2023, 9:47:18 AM 	 ER_BAD_NULL_ERROR: Column 'code' cannot be null
+----------------------------
