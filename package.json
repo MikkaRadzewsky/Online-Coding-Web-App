@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MikkaRadzewsky/Online-Coding-Web-App/issues"
   },
-  "homepage": "https://github.com/MikkaRadzewsky/Online-Coding-Web-App#readme"
+  "homepage": "https://github.com/MikkaRadzewsky/Online-Coding-Web-App#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
 }
