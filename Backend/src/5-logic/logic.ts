@@ -3,6 +3,8 @@ import dal from "../2-utils/dal";
 import CodeBlockModel from "../4-models/codeblock-model";
 import { ResourceNotFoundErrorModel } from "../4-models/error-models";
 
+//add user logic + cookies
+
 // Get all codeblocks:
 async function getAllCodeblocks(): Promise<CodeBlockModel[]> {
   const sql = ` SELECT *

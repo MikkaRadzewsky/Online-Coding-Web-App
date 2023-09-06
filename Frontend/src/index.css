@@ -3,6 +3,11 @@ body,
 #root {
   height: 100%;
   text-align: center;
+  background-color: rgb(12, 12, 12);
+}
+
+h1 {
+  color: lightblue;
 }
 
 .Box {
@@ -14,4 +19,35 @@ body,
   padding: 10px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px black;
+}
+
+.Error {
+  color: red;
+  margin: 0 20px;
+  position: absolute;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+a {
+  color: white;
+  font-weight: bold;
 }

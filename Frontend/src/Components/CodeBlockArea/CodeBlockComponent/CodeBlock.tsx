@@ -28,7 +28,7 @@ function CodeBlock(Prop: CodeBlockProps): JSX.Element {
   const [userRole, setUserRole] = useState<RoleModel>();
   const params = useParams();
 
-  //add roles to server side...
+  //add roles to server side... with cookies maybe?
 
   useEffect(() => {
     const id = +params.codeblockId;
@@ -42,7 +42,7 @@ function CodeBlock(Prop: CodeBlockProps): JSX.Element {
       .catch((err) => notifyService.error(err));
 
     // const unsubscribe = codeblocksStore.subscribe(async () => {
-    //   Prism.highlightAll();
+    // code to update in real time like socket?
     // });
     // return () => unsubscribe();
   }, []);
@@ -53,13 +53,7 @@ function CodeBlock(Prop: CodeBlockProps): JSX.Element {
     } else {
       setUserRole(RoleModel.User);
     }
-
-    console.log(userRole);
   }, [userCount]);
-
-  //   useEffect(() => {
-  //     Prism.highlightAll();
-  //   }, [codeText]);
 
   const handleCodeChange = (code: string) => {
     let newCode = code;
