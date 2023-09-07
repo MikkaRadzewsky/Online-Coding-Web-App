@@ -10,7 +10,6 @@ import { useParams } from "react-router-dom";
 import dataService from "../../../Services/DataService";
 import CodeBlockModel from "../../../Models/CodeBlockModel";
 import notifyService from "../../../Services/NotifyService";
-import e from "cors";
 import RoleModel from "../../../Models/RoleModel";
 import Spinner from "../../SharedArea/Spinner/Spinner";
 
