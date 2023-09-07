@@ -39,8 +39,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var dal_1 = __importDefault(require("../2-utils/dal"));
-var error_models_1 = require("../4-models/error-models");
+var dal_1 = __importDefault(require("../../src/2-utils/dal"));
+var error_models_1 = require("../../src/4-models/error-models");
 //add user logic + cookies
 // Get all codeblocks:
 function getAllCodeblocks() {

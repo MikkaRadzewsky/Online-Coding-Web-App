@@ -40,8 +40,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = __importDefault(require("express"));
-var codeblock_model_1 = __importDefault(require("../4-models/codeblock-model"));
-var logic_1 = __importDefault(require("../5-logic/logic"));
+var codeblock_model_1 = __importDefault(require("../../src/4-models/codeblock-model"));
+var logic_1 = __importDefault(require("../../src/5-logic/logic"));
 var router = express_1.default.Router();
 // GET http://localhost:3001/api/codeblocks
 router.get("/codeblocks", function (request, response, next) { return __awaiter(void 0, void 0, void 0, function () {

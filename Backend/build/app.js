@@ -5,9 +5,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = __importDefault(require("express"));
 var cors_1 = __importDefault(require("cors"));
-var app_config_1 = __importDefault(require("./2-utils/app-config"));
-var catch_all_1 = __importDefault(require("./3-middleware/catch-all"));
-var controller_1 = __importDefault(require("./6-controllers/controller"));
+var app_config_1 = __importDefault(require("../src/2-utils/app-config"));
+var catch_all_1 = __importDefault(require("../src/3-middleware/catch-all"));
+var controller_1 = __importDefault(require("../src/6-controllers/controller"));
 // import cookieParser from "cookie-parser";
 var path_1 = __importDefault(require("path"));
 var server = (0, express_1.default)();
