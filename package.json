@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "cd Frontend && npm run build",
-    "start": "cd Backend && npm run start",
+    "start": "(npm run build); (cd Backend && npm run start);",
     "postinstall": "(cd Backend && npm i); (cd Frontend && npm i)"
   },
   "repository": {

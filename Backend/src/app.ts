@@ -19,7 +19,6 @@ const REACT_BUILD_FOLDER = "../../Frontend/build";
 server.use(express.static(path.resolve(__dirname, REACT_BUILD_FOLDER)));
 
 // server.use(cookieParser());
-
 // add user roles through cookies
 
 server.listen(appConfig.port, () =>
