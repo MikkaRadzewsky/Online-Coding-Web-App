@@ -88,8 +88,10 @@ function CodeBlock(Prop: CodeBlockProps): JSX.Element {
               fontSize: 12,
               color: "white",
             }}
-            readOnly={userRole === RoleModel.Mentor ? true : false}
-            //to test- switch boolean values
+            readOnly={userRole !== RoleModel.Mentor ? true : false}
+            //for testing- boolean values have been switched
+            //currently there is no role implementation in the backend so there is no way to check.
+            //i would use session storage or cookies to implement this...
           />
         </>
       )}
