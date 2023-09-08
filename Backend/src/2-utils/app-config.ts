@@ -6,7 +6,7 @@ class AppConfig {
   public database = "codeblocksProject"; // Database name
 
   // Server port:
-  public port = 3001;
+  public port = process.env.PORT || 3001;
 }
 
 const appConfig = new AppConfig();
