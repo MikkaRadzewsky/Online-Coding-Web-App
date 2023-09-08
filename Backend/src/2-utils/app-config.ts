@@ -1,9 +1,9 @@
 class AppConfig {
   // Database:
-  public host = "localhost"; // Computer name/address of our database
-  public user = "root"; // Database user
-  public password = ""; // Database password
-  public database = "codeblocksProject"; // Database name
+  public host = process.env.MYSQLHOST || "localhost"; // Computer name/address of our database
+  public user = process.env.MYSQLUSER || "root"; // Database user
+  public password = process.env.MYSQLPASSWORD || ""; // Database password
+  public database = process.env.MYSQLDATABASE || "codeblocksProject"; // Database name
 
   // Server port:
   public port = process.env.PORT || 3001;
