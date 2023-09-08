@@ -4,7 +4,7 @@ class AppConfig {
   public user = process.env.MYSQLUSER || "root"; // Database user
   public password = process.env.MYSQLPASSWORD || ""; // Database password
   public database = process.env.MYSQLDATABASE || "codeblocksProject"; // Database name
-
+  public dbPort = Number(process.env.MYSQLPORT) || 3001;
   // Server port:
   public port = process.env.PORT || 3001;
 }
