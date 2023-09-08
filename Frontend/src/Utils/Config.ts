@@ -1,5 +1,5 @@
 class Config {
-  public codeblocksUrl = "http://localhost:3001/api/codeblocks/";
+  public codeblocksUrl = "/api/codeblocks/";
 }
 
 const appConfig = new Config(); // Singleton
